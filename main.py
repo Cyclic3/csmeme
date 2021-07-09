@@ -2,17 +2,20 @@ import sys
 from typing import Optional
 
 def do_copy(text: str) -> None:
-    from tkinter import Tk
-    r = Tk()
-    r.withdraw()
-    r.clipboard_clear()
-    r.clipboard_append(text)
-    r.update()
-    r.destroy()
+    if sys.platform == "linux":
+        from tkinter import Tk
+        r = Tk()
+        r.withdraw()
+        r.clipboard_clear()
+        r.clipboard_append(text)
+        r.update()
+        r.destroy()
+    else:
+        import pyperclip
+        pyperclip.copy(text)
 
 
 handlers = {}
-
 
 def process_one(args: list) -> Optional[str]:
     if len(args) == 0:
