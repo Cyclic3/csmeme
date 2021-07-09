@@ -6,7 +6,7 @@ Run `python3 main.py` with the following arguments to get the message put in you
 
 | Arguments | Effects |
 | - | - |
-| `T_HAX Cyclic3` | Creates a blatently fake VAC message for Cyclic3, complete with haha funny noise |
+| `T_HAX Cyclic3` | Creates a blatantly fake VAC message for Cyclic3, complete with haha funny noise |
 | `T_VAC Cyclic3` | Creates a more believeable VAC message for Cyclic3 |
 | `T_CASE Cyclic3` | Gives Cyclic3 a Dragon Lore from a case! |
 | `T_STAT Cyclic3` | Gives Cyclic3 a StatTrak Dragon Lore from a case (which defo exist) |
