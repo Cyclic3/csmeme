@@ -18,4 +18,4 @@ Run `python3 main.py` with the following arguments to get the message put in you
 | `T_SUDOCT Cyclic3 "I hate you all"` | Same as `T_SUDO` but for CT team chat |
 
 ## Advanced usage
-I also have a bunch of building blocks that can be used to create your own message, but the sytax varies frequently
+I also have a bunch of building blocks that can be used to create your own message, but the syntax varies frequently
